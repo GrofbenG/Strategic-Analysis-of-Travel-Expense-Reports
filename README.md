@@ -1,9 +1,9 @@
 # Travel Expense Data Analysis
 
-## 📌 Overview
+##  Overview
 This project analyzes travel expense data to identify inefficiencies, data quality issues, and their impact on business KPIs.
 
-## 🎯 Business Problem
+##  Business Problem
 Travel expense reporting systems can produce misleading KPIs if data quality issues are present. The goal was to identify anomalies and improve reporting reliability.
 
 ## 🛠 Tools Used
@@ -11,30 +11,30 @@ Travel expense reporting systems can produce misleading KPIs if data quality iss
 - SQL
 - Tableau
 
-## 📊 Dataset
+##  Dataset
 - ~10,000 records
 - Expense reports and submission timestamps
 
-## 🔍 Key Findings
+##  Key Findings
 - Identified extreme outliers (700+ day delays) significantly distorting KPIs
 - Detected timestamp inconsistencies (negative delays)
 - Found gaps in validation and reporting logic
 
-## 💡 Business Impact
+##  Business Impact
 - Distorted performance metrics
 - Reduced trust in reporting
 - Potential compliance risks
 
-## ✅ Recommendations
+##  Recommendations
 - Implement validation rules for date logic
 - Flag anomalies automatically
 - Use median and percentile metrics instead of averages
 
-## 📎 Project Structure
+##  Project Structure
 - Notebook: full analysis
 - Data: sample dataset
 - Images: visualizations
 
-## 🚀 Next Steps
+##  Next Steps
 - Build interactive dashboard
 - Automate validation checks
