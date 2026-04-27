@@ -6,7 +6,7 @@ This project analyzes travel expense data to identify inefficiencies, data quali
 ##  Business Problem
 Travel expense reporting systems can produce misleading KPIs if data quality issues are present. The goal was to identify anomalies and improve reporting reliability.
 
-## 🛠 Tools Used
+##  Tools Used
 - Python (pandas)
 - SQL
 - Tableau
