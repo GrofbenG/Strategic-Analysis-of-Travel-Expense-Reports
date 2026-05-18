@@ -1,40 +1,58 @@
-# Travel Expense Data Analysis
+# Hungary Housing Market Analysis (2019–2025)
 
-##  Overview
-This project analyzes travel expense data to identify inefficiencies, data quality issues, and their impact on business KPIs.
+## Objective
 
-##  Business Problem
-Travel expense reporting systems can produce misleading KPIs if data quality issues are present. The goal was to identify anomalies and improve reporting reliability.
+This project analyzes trends in the Hungarian housing market using official public datasets from KSH and MNB.
 
-##  Tools Used
-- Python (pandas)
+The goal was to understand how housing prices evolved relative to income growth, housing supply, and demand indicators.
+
+---
+
+## Questions
+
+- How have housing prices changed over time?
+- Did income growth keep pace with price increases?
+- How did housing supply and demand evolve?
+- What structural patterns can be identified?
+
+---
+
+## Tools Used
+
+- Python
+- Pandas
 - SQL
-- Tableau
+- Matplotlib
+- Excel
 
-##  Dataset
-- ~10,000 records
-- Expense reports and submission timestamps
+---
 
-##  Key Findings
-- Identified extreme outliers (700+ day delays) significantly distorting KPIs
-- Detected timestamp inconsistencies (negative delays)
-- Found gaps in validation and reporting logic
+## Data Sources
 
-##  Business Impact
-- Distorted performance metrics
-- Reduced trust in reporting
-- Potential compliance risks
+- Hungarian Central Statistical Office (KSH)
+- Hungarian National Bank (MNB)
 
-##  Recommendations
-- Implement validation rules for date logic
-- Flag anomalies automatically
-- Use median and percentile metrics instead of averages
+---
 
-##  Project Structure
-- Notebook: full analysis
-- Data: sample dataset
-- Images: visualizations
+## Key Findings
 
-##  Next Steps
-- Build interactive dashboard
-- Automate validation checks
+- Housing prices increased significantly during the observed period.
+- Supply-side indicators weakened while demand recovered.
+- Affordability pressures increased over time.
+
+---
+
+## Project Structure
+
+- Data cleaning
+- Exploratory analysis
+- Visualization
+- Interpretation
+
+---
+
+## Report
+
+See full report in:
+
+/report/Housing_Market_Portfolio_Project.pdf
